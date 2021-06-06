@@ -4,8 +4,12 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, "build")));
 
-app.get("/", function (req, res) {
+app.get("/*", function (req, res) {
   res.sendFile(path.join(__dirname, "build", "index.html"));
 });
 
-app.listen(9000);
+app.listen(9000, () => {
+  console.log("started in 0...013s");
+});
+
+// "homepage": "http://heapowl.github.io/CandyShop",
