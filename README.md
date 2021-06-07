@@ -15,5 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - removed custom css
 - redefined frontend with react-bootstrap
 - maded it mobile compactible
+- integrated Search in Header
+- Spinners for loading
 - added Navigation commponent in top news
 - Hidden Api key - mistakenly pushed in git
